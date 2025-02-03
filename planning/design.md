@@ -4,14 +4,10 @@
 
 > Give an overview of your project's design
 
-<!-- give an overview of your project's design -->
-<!-- describe the reasoning behind your group's design and wireframe -->
-<!-- include other centralized decisions like fonts, palates, ... -->
-
----
+- This is a clone of [Amazon.com](https://www.amazon.com.be/)
 
 ## Wireframe(s)
 
-> Include your wireframe(s) and link to wireframe
+> Design
 
-<!-- provide a link to your wireframe documenting on Figma, or wherever it is -->
+![amazon clone design](./amazone-clone-design.png)
