@@ -29,7 +29,8 @@ This feature on a branch `navigation-belt`.
 
 > Left navbar
 
-- Add `div` with class `nav-belt`
+- Add `header` with `navbar-main` id
+- Add `div` with class `nav-belt` inside `navbar-main`
 - Add `div` with class `nav-left` inside `nav-belt`
 - Add `div` with class `nav-logo` inside `nav-left`
 - Add `div` with class `nav-global-location-slot` inside `nav-left`
@@ -59,7 +60,7 @@ This feature on a branch `main-navigation`.
 
 #### HTML
 
-- Add `div` with class `nav-main`
+- Add `div` with class `nav-main` inside `navbar-main`
 - Add `div` with class `nav-left` inside `nav-main`
 - Add `div` with class `nav-fill` inside `nav-main`
 - Add `div` with class `nav-right` inside `nav-main`
