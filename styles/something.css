@@ -1,3 +1,229 @@
+@import url("https://fonts.cdnfonts.com/css/amazon-ember");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+
 body {
-  background-color: white;
+  background-color: #e3e6e6;
+}
+
+.navbar-main {
+  background-color: #212529;
+  padding: 8px;
+  justify-content: center;
+}
+
+.nav-belt {
+  display: flex;
+}
+
+.nav-left {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-width: 2px;
+  padding: 10px;
+}
+
+.nav-logo:hover {
+  outline: solid #fff 2px;
+}
+
+.nav-logo img {
+  height: 25px;
+}
+
+.nav-global-location-slot {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px;
+  width: 165px;
+  border-width: 2px;
+}
+
+.nav-global-location-slot:hover {
+  outline: solid #fff 2px;
+}
+
+.nav-global-location-slot img {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.nav-global-location-slot .nav-line-1 {
+  color: #b3c3cc;
+  font-size: 0.8rem;
+}
+
+.nav-global-location-slot .nav-line-2 {
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+/* input */
+.nav-fill .nav-search #nav-input {
+  padding: 8px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.nav-fill .nav-search #nav-input:focus {
+  border: solid;
+  border-width: 3px;
+  border-color: #fe6100;
+  border-left: none;
+  border-right: none;
+}
+
+.nav-fill {
+  width: 60%;
+}
+
+.nav-fill .nav-search .nav-right .nav-submit {
+  padding: 8px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background-color: #ffbc66;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-width: 1px;
+}
+
+.nav-fill .nav-search .nav-right .nav-submit:focus {
+  border: solid;
+  border-color: #fe6100;
+}
+
+.nav-fill .nav-search select {
+  background-color: #e6e6e6;
+  padding: 8px;
+  border: none;
+  font-size: 0.95rem;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.nav-fill .nav-search select:focus {
+  border: solid;
+  border-color: #fe6100;
+}
+
+.nav-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav-search-bar-form {
+  display: flex;
+  padding: 3px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.nav-right {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-tools {
+  display: flex;
+}
+
+.nav-tools #languages {
+  background-color: #212529;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 5%;
+  border: none;
+}
+
+.nav-tools #languages:hover {
+  outline: solid #fff 2px;
+}
+
+.nav-right .nav-deliver-to {
+  color: #fff;
+  line-height: 11px;
+  cursor: pointer;
+}
+
+.nav-right .nav-deliver-to .nav-line-1 {
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px;
+  width: 160px;
+}
+
+.highlight-left {
+  border: 3px solid #fe6100;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-right: none;
+}
+
+.highlight-right {
+  border: 3px solid #fe6100;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-left: none;
+}
+
+.nav-right .nav-returns {
+  color: #fff;
+  line-height: 11px;
+  cursor: pointer;
+}
+
+.nav-right .nav-returns:hover {
+  outline: solid #fff 2px;
+}
+
+.nav-right .nav-deliver-to:hover {
+  outline: solid #fff 2px;
+}
+
+.nav-right .nav-returns .nav-line-1 {
+  font-size: 0.8rem;
+  display: flex;
+  padding: 5px;
+  width: 160px;
+}
+
+.nav-right .nav-basket {
+  display: flex;
+  cursor: pointer;
+}
+
+.nav-right .nav-basket:hover {
+  outline: solid #fff 2px;
+}
+
+.nav-right .nav-basket .nav-line-1 {
+  color: #fff;
+  position: relative;
+  bottom: -10px;
+  margin: 15px;
+}
+
+.nav-right .nav-basket img {
+  width: 30px;
 }
