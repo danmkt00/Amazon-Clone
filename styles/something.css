@@ -101,6 +101,7 @@ body {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   border-width: 1px;
+  cursor: pointer;
 }
 
 .nav-fill .nav-search .nav-right .nav-submit:focus {
@@ -248,4 +249,58 @@ body {
 
 .nav-main a:hover {
   border: 1px solid #fff;
+}
+
+/* main section */
+.desktop-banner {
+  width: 100%;
+  height: 30vh;
+  overflow: visible;
+  max-width: 1650px;
+}
+
+.page-content .desktop-banner img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  max-width: 1650px;
+}
+
+/* cards */
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px #0000001a;
+  overflow: hidden;
+  width: 250px;
+  text-align: center;
+  padding: 15px;
+  justify-content: space-around;
+}
+
+.card-container .card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.card p {
+  color: #333;
+  font-size: 16px;
+  margin: 8px 0;
 }
