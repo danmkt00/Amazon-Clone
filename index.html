@@ -1,81 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Amazon.com clone</title>
-    <link href="https://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet" />
-    <link href="./styles/index.css" rel="stylesheet" />
-  </head>
 
-  <body>
-    <!-- HEADER -->
-    <header class="navbar-main">
-      <div class="nav-belt">
-        <!-- left navbar  -->
-        <div class="nav-left">
-          <div class="nav-logo">
-            <img src="./assets/Amazon.com-Logo.svg" alt="amazon logo" />
-          </div>
-          <div class="nav-global-location-slot">
-            <div id="nav-map-point-icon">
-              <img src="./assets/Map-point.svg" alt="map point" />
-            </div>
-            <div class="nav-map-point">
-              <span class="nav-line-1"> Deliver to Mykytiuk </span>
-              <span class="nav-line-2"> Koekelberg 1081‌ </span>
-            </div>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazon.com clone</title>
+  <link href="https://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet" />
+  <link href="./styles/index.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="navbar-main">
+    <div class="nav-belt">
+      <!-- left navbar  -->
+      <div class="nav-left">
+        <div class="nav-logo">
+          <img src="./assets/amazon-logo.svg" alt="amazon logo" />
         </div>
-        <!-- search -->
-        <div class="nav-fill">
-          <div class="nav-search">
-            <form id="nav-search-bar-form" method="get">
-              <div class="nav-left" id="selector-form">
-                <select name="selector" id="selector">
-                  <option>All</option>
-                  <option>Music</option>
-                  <option>Video Games</option>
-                  <option>Health</option>
-                </select>
-              </div>
-              <div class="nav-fill">
-                <div class="nav-search-field" id="submit-form">
-                  <input type="text" name="nav-input" id="nav-input" />
-                </div>
-              </div>
-              <div class="nav-right" id="nav-submit">
-                <button type="submit" class="nav-submit">Submit</button>
-              </div>
-            </form>
+        <div class="nav-global-location-slot">
+          <div id="nav-map-point-icon">
+            <img src="./assets/map-point.svg" alt="map point" />
           </div>
-        </div>
-        <!-- tools -->
-        <div class="nav-right">
-          <div class="nav-tools">
-            <select name="languages" id="languages">
-              <option>EN</option>
-              <option>FR</option>
-              <option>ND</option>
-            </select>
-            <div class="nav-deliver-to">
-              <span class="nav-line-1"> Hello, Mykytiuk </span>
-              <span class="nav-line-2"> Account &#38; Lists‌ </span>
-            </div>
-            <div class="nav-returns">
-              <span class="nav-line-1"> Returns </span>
-              <span class="nav-line-2"> &#38; Orders‌ </span>
-            </div>
-            <div class="nav-basket">
-              <img src="./assets/shopping-cart.svg" alt="bucket" />
-              <span class="nav-line-1"> Basket </span>
-            </div>
+          <div class="nav-map-point">
+            <span class="nav-line-1"> Deliver to Mykytiuk </span>
+            <span class="nav-line-2"> Koekelberg 1081‌ </span>
           </div>
         </div>
       </div>
-    </header>
+      <!-- search -->
+      <div class="nav-fill">
+        <div class="nav-search">
+          <form id="nav-search-bar-form" method="get">
+            <div class="nav-left" id="selector-form">
+              <select name="selector" id="selector">
+                <option>All</option>
+                <option>Music</option>
+                <option>Video Games</option>
+                <option>Health</option>
+              </select>
+            </div>
+            <div class="nav-fill">
+              <div class="nav-search-field" id="submit-form">
+                <input type="text" name="nav-input" id="nav-input" />
+              </div>
+            </div>
+            <div class="nav-right" id="nav-submit">
+              <button type="submit" class="nav-submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- tools -->
+      <div class="nav-right">
+        <div class="nav-tools">
+          <select name="languages" id="languages">
+            <option>EN</option>
+            <option>FR</option>
+            <option>ND</option>
+          </select>
+          <div class="nav-deliver-to">
+            <span class="nav-line-1"> Hello, Mykytiuk </span>
+            <span class="nav-line-2"> Account &#38; Lists‌ </span>
+          </div>
+          <div class="nav-returns">
+            <span class="nav-line-1"> Returns </span>
+            <span class="nav-line-2"> &#38; Orders‌ </span>
+          </div>
+          <div class="nav-basket">
+            <img src="./assets/shopping-cart.svg" alt="bucket" />
+            <span class="nav-line-1"> Basket </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- main nav -->
+    <div class="nav-main">
+      <div class="nav-left">
+        <a href="">All</a>
+      </div>
+      <div class="nav-fill">
+        <a href="">Today's Deals</a>
+        <a href="">Customer Service</a>
+        <a href="">Registry</a>
+        <a href="">Gift Cards</a>
+        <a href="">Sell</a>
+      </div>
+      <div class="nav-right"></div>
+    </div>
+  </header>
 
-    <script src="./src/app.js"></script>
-  </body>
+  <script src="./src/app.js"></script>
+</body>
+
 </html>

@@ -13,8 +13,7 @@ body {
 
 .navbar-main {
   background-color: #212529;
-  padding: 8px;
-  justify-content: center;
+  padding-top: 3px;
 }
 
 .nav-belt {
@@ -162,6 +161,7 @@ body {
   color: #fff;
   line-height: 11px;
   cursor: pointer;
+  width: 160px;
 }
 
 .nav-right .nav-deliver-to .nav-line-1 {
@@ -170,7 +170,6 @@ body {
   align-items: center;
   cursor: pointer;
   padding: 5px;
-  width: 160px;
 }
 
 .highlight-left {
@@ -191,6 +190,7 @@ body {
   color: #fff;
   line-height: 11px;
   cursor: pointer;
+  width: 120px;
 }
 
 .nav-right .nav-returns:hover {
@@ -205,12 +205,12 @@ body {
   font-size: 0.8rem;
   display: flex;
   padding: 5px;
-  width: 160px;
 }
 
 .nav-right .nav-basket {
   display: flex;
   cursor: pointer;
+  padding-right: 10px;
 }
 
 .nav-right .nav-basket:hover {
@@ -226,4 +226,26 @@ body {
 
 .nav-right .nav-basket img {
   width: 30px;
+}
+
+/* main navigation */
+
+.nav-main {
+  display: flex;
+  background-color: #232f3e;
+  color: white;
+  gap: 10px;
+  padding-bottom: 2px;
+}
+
+.nav-main a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 5px;
+  border: 1px solid transparent;
+}
+
+.nav-main a:hover {
+  border: 1px solid #fff;
 }
